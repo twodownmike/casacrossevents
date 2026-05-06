@@ -1,0 +1,97 @@
+:root {
+  /* Cream palette — the user's chosen mood */
+  --c-bg: #f6f0e6;
+  --c-surface: #fbf7f0;
+  --c-ink: #2b2520;
+  --c-muted: #8a7d70;
+  --c-accent: #b8967a;
+  --c-line: #e6dccd;
+
+  /* Classic type pairing — Cormorant + Pinyon + Jost */
+  --ff-display: "Cormorant Garamond", "Times New Roman", serif;
+  --ff-script: "Pinyon Script", cursive;
+  --ff-body: "Jost", system-ui, sans-serif;
+  --fw-display: 400;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--c-bg);
+  color: var(--c-ink);
+  font-family: var(--ff-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--c-accent);
+  color: var(--c-surface);
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-33.333%);
+  }
+}
+
+@keyframes scrollHint {
+  0%,
+  100% {
+    transform: scaleY(0.4);
+    transform-origin: top;
+    opacity: 0.4;
+  }
+  50% {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 900px) {
+  .nav-links a:not(:last-child) {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero-grid,
+  .philosophy-grid,
+  .services-header,
+  .services-grid,
+  .gallery-grid,
+  .process-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .hero-images {
+    height: 60vh !important;
+  }
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .process-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}

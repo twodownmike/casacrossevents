@@ -44,11 +44,13 @@ export function Nav() {
       >
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/casa-cross-logo.png"
+          src="/casa-cross-logo-transparent.png"
           alt="Casa Cross Events"
           style={{
-            height: scrolled ? 40 : 56,
-            transition: "height 400ms ease",
+            height: scrolled ? 38 : 54,
+            width: "auto",
+            opacity: scrolled ? 0.88 : 0.96,
+            transition: "height 400ms ease, opacity 400ms ease",
             display: "block",
           }}
         />

@@ -4,9 +4,7 @@ import { ParallaxImage } from "./parallax-image";
 import { Reveal } from "./reveal";
 
 const STATS: Array<[string, string]> = [
-  ["48+", "Vendors featured"],
-  ["12", "Styled shoots"],
-  ["4yr", "In community"],
+  ["25+", "Vendors featured"],
 ];
 
 export function Philosophy() {

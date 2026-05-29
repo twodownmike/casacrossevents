@@ -70,8 +70,9 @@ export function Contact() {
               marginInline: "auto",
             }}
           >
-            Whether you&apos;re a vendor hoping to be featured or planning a
-            celebration of your own — we&apos;d love to hear from you.
+            Whether you&apos;re a vendor hoping to be featured or a creative who
+            wants to be part of a future styled shoot — we&apos;d love to hear from
+            you.
           </p>
         </Reveal>
         <Reveal

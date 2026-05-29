@@ -6,27 +6,27 @@ import { Reveal } from "./reveal";
 const ITEMS = [
   {
     num: "01",
-    title: "Styled Shoots",
+    title: "Styled Shoot Concepts",
     img: IMG.svc1,
-    desc: "Editorial concepts that bring vendors together to create publishable, brand-defining imagery.",
+    desc: "Curated themes, palettes, and visual direction created to give vendors beautiful portfolio content.",
   },
   {
     num: "02",
-    title: "Weddings",
+    title: "Vendor Collaboration",
     img: IMG.svc2,
-    desc: "Intentional, beautifully styled wedding days designed around the couple and their people.",
+    desc: "Thoughtful shoot planning that brings photographers, florists, models, venues, and makers together.",
   },
   {
     num: "03",
-    title: "Editorial Events",
+    title: "Portfolio Content",
     img: IMG.svc3,
-    desc: "Brand activations, dinners, and intimate gatherings designed for the camera and the moment.",
+    desc: "Styled scenes and details designed to help local creatives refresh their galleries and marketing.",
   },
   {
     num: "04",
-    title: "Creative Direction",
+    title: "Community Features",
     img: IMG.svc4,
-    desc: "End-to-end creative for vendors and brands looking to refresh their portfolio with new work.",
+    desc: "A shared space for participating vendors to be highlighted through cohesive styled-shoot imagery.",
   },
 ];
 
@@ -91,7 +91,7 @@ export function Services() {
                 textWrap: "pretty",
               }}
             >
-              Each engagement is shaped around the people involved — a slow,
+              Every shoot is shaped around the vendors involved — a slow,
               considered process that leaves space for beauty to find its own
               form.
             </p>

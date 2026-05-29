@@ -12,7 +12,7 @@ export const IMG = {
   gal6: "/portfolio/gallery-signage-detail.jpg",
   gal7: "/portfolio/gallery-wedding-party.jpg",
   gal8: "/portfolio/gallery-cake-florals.jpg",
-  svc1: "/portfolio/service-styled-details.jpg",
+  svc1: "/portfolio/service-styled-chandelier.jpg",
   svc2: "/portfolio/service-wedding-portrait.jpg",
   svc3: "/portfolio/service-editorial-table.jpg",
   svc4: "/portfolio/service-creative-direction.jpg",
